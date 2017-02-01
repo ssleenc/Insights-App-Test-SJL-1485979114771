@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: Insights App Test SJL
+  host: Insights-App-Test-SJL
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
